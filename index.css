@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "RobotoCondensedBold";
+    src: url('./fonts/roboto-condensed/RobotoCondensed-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "RobotoCondensedLight";
+    src: url('./fonts/roboto-condensed/RobotoCondensed-Light.ttf') format('truetype');
+}
+body{
+    background-color: #000;
+    margin: 0;
+}
+.section-top {
+    display: grid;
+}
+.logo {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 8px;
+    margin: 0 auto;
+    z-index: 5;
+}
+.boxes {
+    position: relative;
+    display: block;
+    top: -84px;
+    left: -19px;
+    margin: 0 auto;
+    z-index: 5;
+}
+.layer-1 {
+    position: absolute;
+    left: -22px;
+    top: 0;
+    z-index: 3;
+}
+.layer-2 {
+    position: absolute;
+    right: -22px;
+    top: 0;
+    z-index: 3;
+}
+.layer-3 {
+    position: absolute;
+    bottom: 22px;
+}
+.costume-1 {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 1;
+}
+.costume-2 {
+    position: absolute;
+    top: 16px;
+    right: 7px;
+    z-index: 1;
+}
+.blue-glow {
+    position: absolute;
+    width: 1977px;
+    height: 172px;
+    left: -115px;
+    top: 720px;
+}
+.hue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.section-top-header {
+    position: relative;
+    top: -108px;
+    left: 8px;
+    margin: 0 auto;
+    font-family: 'RobotoCondensedBold';
+    font-size: 42px;
+    font-weight: bolder;
+    color: #fff;
+    z-index: 5;
+}
+.section-top-text {
+    position: relative;
+    top: -91px;
+    left: 8px;
+    margin: 0 auto;
+    font-family: 'RobotoCondensedLight';
+    font-size: 22.3px;
+    color: #fff;
+    z-index: 5;
+    transform: scale(1.042, 0.99);
+}
+.shadow-1 {
+    position: absolute;
+    width: 100%;
+    height: 892px;
+    opacity: 0.7;
+    box-shadow: inset -200px -200px 1000px black;
+    z-index: 2;
+}
+.shadow-2 {
+    position: absolute;
+    width: 100%;
+    height: 892px;
+    opacity: 0.7;
+    box-shadow: inset 200px 0 1000px black;
+    z-index: 2;
+}
+.box {
+    position: relative;
+    top: 684px;
+    left: 963px;
+}
+.section-bottom-header {
+    color: #fff;
+    font-family: 'RobotoCondensedBold';
+    position: relative;
+    top: -327px;
+    left: 991px;
+    font-size: 29px;
+    transform: scale(1.033, 1);
+}
+.tabs {
+    position: relative;
+    width: 642px;
+    height: 38px;
+    top: -320px;
+    left: 957px;
+}
+.f2p {
+    display: inline-block;
+    color: #671D00;
+    font-size: 13px;
+    margin-left: 341px;
+    margin-top: 9px;
+    width: 124px;
+    height: 21px;
+    padding: 0 10px;
+    transform: scale(0.96, 1);
+    border: 1px solid #671D00;
+}
+.p2p {
+    display: inline-block;
+    color: #671D00;
+    font-size: 13px;
+    margin-top: 9px;
+    margin-left: 0px;
+    width: 134px;
+    height: 21px;
+    padding: 0px 7px;
+    transform: scale(0.94, 1);
+    border: 1px solid #671D00;
+}
+.section-bottom-text {
+    margin: 0px;
+    font-family: system-ui;
+    padding-top: 0;
+    padding-left: 1px;
+}
+.vito {
+    position: relative;
+    top: -456px;
+    left: 359px;
+    z-index: 5;
+}
+.items {
+    position: relative;
+    top: -1214px;
+    left: 961px;
+}
+.item {
+    border: 1px solid #671D00;
+    width: 629px;
+    height: 73px;
+}
+.icon {
+    margin: 5px 3px;
+    display: inline-block;
+}
+.item-name {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-family: system-ui;
+    top: -32px;
+    left: 14px;
+    width: 170px;
+    margin: 0;
+    line-height: 20px;
+}
+p.double-row {
+    top: -21px
+}
+.f2p-name {
+    display: inline-block;
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    top: -32px;
+    left: 150px;
+    margin: 0;
+}
+.p2p-name {
+    display: inline-block;
+    color: white;
+    font-family: system-ui;
+    position: relative;
+    top: -32px;
+    left: 285px;
+}
+p.first {
+    left: 268px;
+}
+.buy-btn {
+    position: relative;
+    top: -1037px;
+    left: 1224px;
+    height: 109px;
+    width: 184px;
+    display: grid;
+}
+.sum {
+    color: white;
+    font-size: 51px;
+    margin: 0;
+    font-family: sans-serif;
+}
+button {
+    margin-top: 9px;
+    height: 42px;
+    background-color: yellow;
+    border-radius: 8px;
+    font-size: 15px;
+}
